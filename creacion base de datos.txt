@@ -1,0 +1,7 @@
+CREATE DATABASE Universidad
+
+CREATE TABLE Alumnos(ID_Alumno INT PRIMARY KEY, Nombre_alumno VARCHAR(40),Apellido_Alumno VARCHAR(40),Carrera VARCHAR(30),Edad INT);
+
+CREATE TABLE Profesores(ID_Profesor INT PRIMARY KEY, Nombre_profesor VARCHAR(40),Apellido_Profesor VARCHAR(40),Grupo INT,Correo_Institucional VARCHAR (40),Cedula VARCHAR(40));
+
+CREATE TABLE Carreras(ID_Salon INT PRIMARY KEY, Profesor_Asignado VARCHAR(40));

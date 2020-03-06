@@ -1,0 +1,38 @@
+package postttsts;
+
+import java.util.*;
+
+
+public class Postttsts {
+private String Nombre = "José";
+private String Apellido = "Trevilla Martínez";
+private String Edad = "22";
+    
+ public static void main(String [] args) {
+int n1,n2;
+float a,b,d;
+Postttsts myObj = new Postttsts();
+System.out.println("Nombre:" + myObj.Nombre);
+System.out.println("Apellido:" + myObj.Apellido);
+System.out.println("Edad:" + myObj.Edad);
+
+Scanner teclado = new Scanner(System.in);
+System.out.print("Ingrese un numero a sumar: ");
+n1 = teclado.nextInt();
+System.out.print("Ingrese otro numero: ");
+n2 = teclado.nextInt();
+System.out.print("Ingrese un numero a multiplicar: ");
+a = teclado.nextInt();
+System.out.print("Ingrese otro numero: ");
+b = teclado.nextInt();
+
+a = n1 + n2;
+d = a * b;
+
+
+     System.out.println("Resultados:");
+     
+System.out.print("Suma: " + a + " y ");
+System.out.print("Multiplicacion: " + d);
+}
+}
